@@ -1,0 +1,6 @@
+{
+  "max_db_size": 101,
+  "max_db_users": 10,
+  "default_expiration": 701092831029381230,
+  "cleanup_interval": 1901231823791287
+}
