@@ -7,16 +7,18 @@ in-memory-key-value-db-go is an in-memory key-value store with small test server
 Import this in your project
 
 	import (
-		"github.com/astaxie/beego/cache"
+		"github.com/Doingthingsjke/memory-db-go/server"
 	)
 
-Then u can init your new in-memory db
+Then u can init your new in-memory db on server for example
 
-	db, err := db.NewDB(3 * time.Minute, 10 * time.Minute)
+	srv := &Server{
+		db: *newDB(5 * time.Minute, 10 * time.Minute),
+	}
 
 or u can init with db.json (your local file)
 
-	db, err := db.NewDbFrom(3 * time.Minute, 5 * time.Minute)
+	db: *newDbFrom(5 * time.Minute, 10 * time.Minute),
 
 Use it in console like this:
 
