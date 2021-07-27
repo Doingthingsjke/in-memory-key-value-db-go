@@ -1,6 +1,6 @@
 # in-memory-key-value-db-go
 
-in-memory-key-value-db-go is an in-memory key-value store with small test server that is suitable for applications running on a single machine. it`s written in GOlang. Being essentially a thread-safe map[string]interface{} with expiration times (TTL), it doesn't need to serialize or transmit contents over the network. Might be easy configured as you need. 
+in-memory-key-value-db-go is an in-memory key-value store with small test server that is suitable for applications running on a single machine. it`s written in GOlang. Being essentially a thread-safe _map[string]interface{}_ with expiration times (TTL), it doesn't need to serialize or transmit contents over the network. Might be easy configured as you need. 
 
 ## How to use?
 
