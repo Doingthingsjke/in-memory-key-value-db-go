@@ -7,7 +7,7 @@ in-memory-key-value-db-go is an in-memory key-value store with small test server
 Import this in your project
 
 	import (
-		"github.com/Doingthingsjke/memory-db-go/server"
+		"https://github.com/Doingthingsjke/in-memory-key-value-db-go/server"
 	)
 
 Then u can init your new in-memory db on server for example
